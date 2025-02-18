@@ -59,12 +59,6 @@ In document ranking tasks, the model learns to differentiate between relevant an
 - **Input**: Query and documents are passed through the same model.
 - **Output**: The target labels represent relevance scores, e.g., `[1, 0, 0]` for relevant and irrelevant documents.
 - **Loss Function**: Contrastive loss, which compares the model's predicted scores for each document against the true relevance.
-
-## Official Transformer Diagram
-
-Here is the official diagram that illustrates the transformer architecture:
-[Transformer Model Diagram](https://jalammar.github.io/images/transformer_architecture.jpg)
-
 ---
 
 ### Summary of Data Flow:
@@ -72,6 +66,7 @@ Here is the official diagram that illustrates the transformer architecture:
 1. **Tokenization** → Convert text into tokens.
 2. **Embedding Layer** → Convert tokens into embeddings.
 3. **Positional Encoding** → Add positional information.
-4. **Encoder** → Self-attention, Add & Norm, Feed-forward networks.
+4![0_c9-g5X8uAfTIJkpy](https://github.com/user-attachments/assets/c6b47c74-dcb1-44eb-bbf1-e138beb934f1)
+. **Encoder** → Self-attention, Add & Norm, Feed-forward networks.
 5. **Decoder** → Self-attention, Cross-attention, Add & Norm, Feed-forward networks.
 6. **Output Generation** → Decoder generates text based on learned context and relationships.
