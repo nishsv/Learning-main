@@ -1,6 +1,8 @@
 
 # Transformer Architecture: From Tokenization to Decoder-Only Models
 
+![0_c9-g5X8uAfTIJkpy](https://github.com/user-attachments/assets/bd52022f-a6f5-4e7f-a099-27aec980f14b)
+
 ## 1. **Tokenization**
 Tokenization is the process of breaking down raw text into smaller units such as words, sub-words, or characters. Libraries like **BPE**, **SentencePiece**, and **WordPiece** are commonly used for this purpose. Tokenization helps in converting raw text into machine-understandable format by assigning an integer ID to each token.
 
@@ -66,7 +68,6 @@ In document ranking tasks, the model learns to differentiate between relevant an
 1. **Tokenization** → Convert text into tokens.
 2. **Embedding Layer** → Convert tokens into embeddings.
 3. **Positional Encoding** → Add positional information.
-4![0_c9-g5X8uAfTIJkpy](https://github.com/user-attachments/assets/c6b47c74-dcb1-44eb-bbf1-e138beb934f1)
-. **Encoder** → Self-attention, Add & Norm, Feed-forward networks.
+4. **Encoder** → Self-attention, Add & Norm, Feed-forward networks.
 5. **Decoder** → Self-attention, Cross-attention, Add & Norm, Feed-forward networks.
 6. **Output Generation** → Decoder generates text based on learned context and relationships.
